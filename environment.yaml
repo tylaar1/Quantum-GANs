@@ -3,11 +3,14 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python
+  - python=3.9  # Specify a compatible Python version
   - numpy
   - pandas
   - matplotlib
-  - pennylane
-  - pytorch
+  - pennylane>=0.30  # Ensure a recent version of PennyLane
+  - pytorch>=1.9  # Specify PyTorch version 1.9.0 or later
   - torchvision
   - ipykernel
+  - pip  # Include pip for additional installations
+  - pip:
+      - torch  # Ensure PyTorch is also installed via pip if needed
