@@ -7,10 +7,9 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
-  - pennylane>=0.30  # Ensure a recent version of PennyLane
   - pytorch>=1.9  # Specify PyTorch version 1.9.0 or later
   - torchvision
   - ipykernel
   - pip  # Include pip for additional installations
   - pip:
-      - torch  # Ensure PyTorch is also installed via pip if needed
+      - pennylane>=0.30  # Install PennyLane via pip
