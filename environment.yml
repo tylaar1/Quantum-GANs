@@ -11,6 +11,7 @@ dependencies:
   - torchvision
   - ipykernel
   - pip  # Include pip for additional installations
+  - PILLOW
   - pip:
       - pennylane>=0.30  # Install PennyLane via pip
       - torchmetrics  # Added torchmetrics package
