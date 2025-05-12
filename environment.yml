@@ -15,3 +15,5 @@ dependencies:
   - pip:
       - pennylane>=0.30  # Install PennyLane via pip
       - torchmetrics  # Added torchmetrics package
+      - scikit-image
+      - tensorflow
